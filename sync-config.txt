@@ -1,0 +1,49 @@
+{
+    "ancor_ip": "172.16.12.249",
+    "cloud_ip": "172.16.50.248",
+    "ancor_saml": ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==",
+    "ancor_webservice_url": "https://172.16.12.248/AncorWebService/",
+    "common_headers": {
+        "Content-type": "application/zip;charset=utf-8",
+        "Authorization": "SAML ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw=="
+    },
+    "api_endpoints": [
+        "syncsqldata",
+        "syncthreatfeed",
+        "syncqueryfeed",
+        "syncRPMongoDump",
+        "syncRPFeed",
+        "syncplasmafeed",
+        "syncconfiguration",
+        "syncnsefeed",
+        "syncagentdata",
+        "syncxmldata",
+        "syncresourcedata",
+        "syncmvecontent"
+    ],
+    "ancor_user": "root",
+    "ancor_pwd": "secpod",
+    "cloud_pwd": "secpod",
+    "ancor_path": "/usr/local/scaprepo",
+    "cloud_path": "/feed/home",
+    "log_path": "/root/sync-check-logpath",
+    "folders_shasum": [
+        "reports",
+        "resource",
+        "mve_v2",
+        "nmap",
+        "rpfeed",
+        "rpMongoDump",
+        "queryfeed",
+        "dbscripts",
+        "threatfeed",
+        "conf",
+        "windowsbuildroot",
+        "osxbuildroot",
+        "linuxbuildroot",
+        "updates",
+        "plasmadocs"
+    ]
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "inhouse_ip": "172.16.12.249",
+  "cloud_ip": "172.16.50.248",
+  "cloud_ssh_user": "root",
+  "cloud_ssh_password": "secpod",
+  "inhouse_ancor_saml": {
+    "6.3InhouseSAML": "ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==",
+    "6.4InhouseSAML": "INJECT_6_4_INHOUSE_SAML"
+  },
+  "cloud_webservice_api_url": "https://172.16.50.248/AncorWebService/",
+  "download_directory_path": "downloads",
+  "cloud_content_files_path": "/feed/home/",
+  "sync_folder_map": {
+    "syncsqldata": "dbscripts",
+    "syncthreatfeed": "threatfeed",
+    "syncqueryfeed": "queryfeed",
+    "syncRPMongoDump": "rpMongoDump",
+    "syncRPFeed": "rpfeed",
+    "syncplasmafeed": "plasmadocs",
+    "syncconfiguration": "conf_sync",
+    "syncnsefeed": "nmap",
+    "syncxmldata": "reports",
+    "syncresourcedata": "resource",
+    "syncmvecontent": "mve_v2"
+  }
+}

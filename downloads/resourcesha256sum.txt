@@ -1,0 +1,1 @@
+resource/cce-92971-1-patch.zip=42356e8117b7e4f9326f669a45fa6a38e3c321eece01c103e65810b2c4baf796||resource/zulu-8.84.0.15-jre-windows-x86.zip=3f9bd11578595f1e661ce8ed0560714046ded4727a05f8e1048d36cf53fbf10b||resource/ZoomInstallerFull-6.3.6.56144-x64.zip=d915aaada3a4744ce291158b86b1beadd02875e01389c59b89b6f69bd6956d0e||

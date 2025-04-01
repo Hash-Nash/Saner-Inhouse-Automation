@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "sps": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "service_type": {
+              "type": "string"
+            },
+            "patchmanagement": {
+              "type": "integer"
+            },
+            "assetmanagement": {
+              "type": "integer"
+            },
+            "reportsalertsmanagement": {
+              "type": "integer"
+            },
+            "edr": {
+              "type": "integer"
+            },
+            "vulnerabilitymanagement": {
+              "type": "integer"
+            },
+            "auditing": {
+              "type": "integer"
+            },
+            "devicemanagement": {
+              "type": "integer"
+            },
+            "endpointmanagement": {
+              "type": "integer"
+            },
+            "riskprioritization": {
+              "type": "integer"
+            },
+            "compliancemanagement": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "service_type",
+            "patchmanagement",
+            "assetmanagement",
+            "reportsalertsmanagement",
+            "edr",
+            "vulnerabilitymanagement",
+            "auditing",
+            "devicemanagement",
+            "endpointmanagement",
+            "riskprioritization",
+            "compliancemanagement"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "sps"
+  ]
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="19" time="7.295" timestamp="2025-03-25T17:59:31.606560+05:30" hostname="SP-Avinash-QA-Laptop"><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getancorserviceprovision api for an 6.3.X Inhouse-getancorserviceprovision-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-json-{\n    &quot;sps&quot;: [\n        {\n            &quot;service_type&quot;: &quot;endpoint&quot;,\n            &quot;patchmanagement&quot;: 1,\n            &quot;assetmanagement&quot;: 1,\n            &quot;reportsalertsmanagement&quot;: 1,\n            &quot;edr&quot;: 1,\n            &quot;vulnerabilitymanagement&quot;: 1,\n            &quot;auditing&quot;: -1,\n            &quot;devicemanagement&quot;: 1,\n            &quot;endpointmanagement&quot;: 1,\n            &quot;riskprioritization&quot;: 1,\n            &quot;compliancemanagement&quot;: 1\n        }\n    ]\n}]" time="2.333" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getAgentAllowedActivationCount api for an 6.3.X Inhouse-getAgentAllowedActivationCount-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-text-2000]" time="0.115" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getclientactivationcount api for an 6.3.X Inhouse-getclientactivationcount-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-text-2000]" time="0.105" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getrebrandingstatus api for an 6.3.X Inhouse-getrebrandingstatus-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-binary-0]" time="0.102" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getclientexpirydate api for an 6.3.X Inhouse-getclientexpirydate-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-date-2025-03-25]" time="0.148" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getancorexpiry api for an 6.3.X Inhouse-getancorexpiry-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-date-2025-03-25]" time="0.102" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getwhitelabelstatus api for an 6.3.X Inhouse-getwhitelabelstatus-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-boolean-false]" time="0.117" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the getapikeystatus api for an 6.3.X Inhouse-getapikeystatus-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-boolean-false]" time="0.112" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[Test the syncsqldata api-syncsqldata-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.113" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncthreatfeed api-syncthreatfeed-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.100" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncqueryfeed api-syncqueryfeed-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.113" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncRPMongoDump api-syncRPMongoDump-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.136" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncRPFeed api-syncRPFeed-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.129" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncplasmafeed api-syncplasmafeed-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.134" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncconfiguration api-syncconfiguration-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.122"><failure message="Failed: Error while processing the zip file: SHA sums do not match with the cloud server">response = &lt;Response [200]&gt;, expected_status_code = '200'
+expected_response = 'text', response_type = 'zipfile'
+sync_type = 'syncconfiguration'
+
+    def assert_api_response(response, expected_status_code, expected_response, response_type, sync_type=None):
+        """
+            :param response: The response object from the request.
+            :param expected_response:  The expected response from the API.
+            :param expected_status_code: The expected status code of the API response.
+            :param response_type: The type of response to expect. Supported types are "json","text", "date", "zipfile".
+            :param sync_type: The type of sync API. Eg: "syncsqldata", "syncthreatfeed"...etc.
+            :return: This method returns True if the assertions passes, otherwise it raises an AssertionError.
+            """
+        if response:
+            assert str(response.status_code) == str(expected_status_code), \
+                f"API response status code is not 200. Actual status code: {response.status_code}"
+            if response_type == "json":
+                response_json = dict(response.json())
+                expected_response_json = dict(json.loads(expected_response))
+                # Validate the response against the expected JSON schema
+                from jsonschema import validate, ValidationError
+                try:
+                    json_shema = json.loads(open("resources/JsonSchemaValidation1.json").read())
+                    print(json_shema)
+                    validate(instance=response_json, schema=json_shema)
+                    print("API response is valid against the expected JSON schema")
+                except ValidationError as e:
+                    raise AssertionError(f"JSON schema validation error: {e.message}")
+                assert set(response_json.keys()).issubset(set(expected_response_json.keys())), \
+                    f"API response does not match the expected response. Actual response: {response_json}\nExpected " \
+                    f"response: {expected_response_json}"
+            elif response_type == "text":
+                response_text = response.text
+                assert response_text == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_text}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "date":
+                date_pattern = r"^\d{4}-\d{2}-\d{2}$"
+                response_date = response.text
+                assert re.match(date_pattern, response_date), \
+                    f"API response is not in YYYY-MM-DD format. Actual response: {response_date}"
+                assert response_date == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_date}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "boolean":
+                response_boolean = response.text
+                assert response_boolean in ["true", "false"], \
+                    f"API response is not a boolean. Actual response: {response_boolean}"
+                assert response_boolean == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_boolean}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "binary":
+                response_binary = response.text
+                assert response_binary in ['0', '1'], \
+                    f"API response is not a binary. Actual response: {response_binary}"
+                assert response_binary == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_binary}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "zipfile":
+                assert response.headers['content-type'] == 'application/zip;charset=utf-8', \
+                    f"API response is not a zipfile. Actual response: {response.headers['content-type']}"
+                content = response.content
+                if content.startswith(b'PK'):
+                    print("API response is a zipfile")
+                    print("Extracting the zipfile")
+                    try:
+                        with zipfile.ZipFile(io.BytesIO(content)) as zipf:
+                            # Extract the files
+                            assert zipf.testzip() is None, "Content zip file is corrupted"
+                            assert len(zipf.infolist()) == 1, "Content zip file is either empty or contains multiple files"
+                            file_name = zipf.infolist()[0].filename
+                            assert file_name == expected_response, \
+                                "Content zip file does not contain the expected file"
+                            print("Reading the extracted file")
+                            file_content = zipf.open(file_name).read().decode('utf-8', errors='replace')
+                            print(f"Extracted files: {file_name}")
+                            # print(f"Extracted file content: {file_content}")
+                            print("Mapping file names to their corresponding SHA sums")
+                            shasum_map = map_shasum(file_content)
+                            # print(f"SHA sums: {shasum_map}")
+                            print("Asserting the SHA sums with the cloud server")
+                            f = config.get_sync_folder_maps
+                            d = f[sync_type]
+                            cloud_file_path = os.path.join(config.get_download_directory_path, d + "sha256sum.txt")
+                            print(f"Cloud file path: {cloud_file_path}")
+                            main_shasum_file = open(cloud_file_path, "r").read()
+                            main_shasum_map = map_shasum(main_shasum_file)
+                            # print(f"Main SHA sums: {main_shasum_map}")
+                            # print(f"Extracted SHA sums: {shasum_map}")
+&gt;                           assert shasum_map == main_shasum_map, "SHA sums do not match with the cloud server"
+E                           AssertionError: SHA sums do not match with the cloud server
+
+utils\utility_functions.py:119: AssertionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;testSuite.test_inhouse_api.TestInhouseAPIs object at 0x00000224468F3CB0&gt;
+test_description = 'tes the syncconfiguration api'
+api_endpoint = 'syncconfiguration'
+ancor_saml = 'ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqa...5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw=='
+expected_api_response_status = '200', response_type = 'zipfile'
+expected_api_response = 'text'
+
+    @pytest.mark.parametrize("test_description, api_endpoint, ancor_saml, expected_api_response_status, response_type,"
+                             "expected_api_response", test_data)
+    def test_inhouse_api(self, test_description, api_endpoint, ancor_saml, expected_api_response_status, response_type,
+                         expected_api_response):
+        print()
+        print("*" * 50)
+        print(f"Test Description: {test_description}")
+        print("*" * 50)
+        print()
+        url = config.get_cloud_webservice_url + api_endpoint
+        print(f"API Endpoint: {url}")
+        headers = {"Authorization": f"SAML {ancor_saml}", "User-Agent": "Saner-Inhouse-Automation"}
+        response = APIClient.send_request(url=url, method="GET", headers=headers, ssl_verify=False)
+        print(f"API Response: {response.text}")
+        print("Asserting the API response")
+        if "sync" in api_endpoint:
+&gt;           utility_functions.assert_api_response(response, expected_api_response_status, expected_api_response,
+                                                  response_type, sync_type=api_endpoint)
+
+testSuite\test_inhouse_api.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+response = &lt;Response [200]&gt;, expected_status_code = '200'
+expected_response = 'text', response_type = 'zipfile'
+sync_type = 'syncconfiguration'
+
+    def assert_api_response(response, expected_status_code, expected_response, response_type, sync_type=None):
+        """
+            :param response: The response object from the request.
+            :param expected_response:  The expected response from the API.
+            :param expected_status_code: The expected status code of the API response.
+            :param response_type: The type of response to expect. Supported types are "json","text", "date", "zipfile".
+            :param sync_type: The type of sync API. Eg: "syncsqldata", "syncthreatfeed"...etc.
+            :return: This method returns True if the assertions passes, otherwise it raises an AssertionError.
+            """
+        if response:
+            assert str(response.status_code) == str(expected_status_code), \
+                f"API response status code is not 200. Actual status code: {response.status_code}"
+            if response_type == "json":
+                response_json = dict(response.json())
+                expected_response_json = dict(json.loads(expected_response))
+                # Validate the response against the expected JSON schema
+                from jsonschema import validate, ValidationError
+                try:
+                    json_shema = json.loads(open("resources/JsonSchemaValidation1.json").read())
+                    print(json_shema)
+                    validate(instance=response_json, schema=json_shema)
+                    print("API response is valid against the expected JSON schema")
+                except ValidationError as e:
+                    raise AssertionError(f"JSON schema validation error: {e.message}")
+                assert set(response_json.keys()).issubset(set(expected_response_json.keys())), \
+                    f"API response does not match the expected response. Actual response: {response_json}\nExpected " \
+                    f"response: {expected_response_json}"
+            elif response_type == "text":
+                response_text = response.text
+                assert response_text == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_text}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "date":
+                date_pattern = r"^\d{4}-\d{2}-\d{2}$"
+                response_date = response.text
+                assert re.match(date_pattern, response_date), \
+                    f"API response is not in YYYY-MM-DD format. Actual response: {response_date}"
+                assert response_date == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_date}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "boolean":
+                response_boolean = response.text
+                assert response_boolean in ["true", "false"], \
+                    f"API response is not a boolean. Actual response: {response_boolean}"
+                assert response_boolean == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_boolean}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "binary":
+                response_binary = response.text
+                assert response_binary in ['0', '1'], \
+                    f"API response is not a binary. Actual response: {response_binary}"
+                assert response_binary == expected_response, \
+                    f"API response does not match the expected response. Actual response: {response_binary}\nExpected " \
+                    f"response: {expected_response}"
+            elif response_type == "zipfile":
+                assert response.headers['content-type'] == 'application/zip;charset=utf-8', \
+                    f"API response is not a zipfile. Actual response: {response.headers['content-type']}"
+                content = response.content
+                if content.startswith(b'PK'):
+                    print("API response is a zipfile")
+                    print("Extracting the zipfile")
+                    try:
+                        with zipfile.ZipFile(io.BytesIO(content)) as zipf:
+                            # Extract the files
+                            assert zipf.testzip() is None, "Content zip file is corrupted"
+                            assert len(zipf.infolist()) == 1, "Content zip file is either empty or contains multiple files"
+                            file_name = zipf.infolist()[0].filename
+                            assert file_name == expected_response, \
+                                "Content zip file does not contain the expected file"
+                            print("Reading the extracted file")
+                            file_content = zipf.open(file_name).read().decode('utf-8', errors='replace')
+                            print(f"Extracted files: {file_name}")
+                            # print(f"Extracted file content: {file_content}")
+                            print("Mapping file names to their corresponding SHA sums")
+                            shasum_map = map_shasum(file_content)
+                            # print(f"SHA sums: {shasum_map}")
+                            print("Asserting the SHA sums with the cloud server")
+                            f = config.get_sync_folder_maps
+                            d = f[sync_type]
+                            cloud_file_path = os.path.join(config.get_download_directory_path, d + "sha256sum.txt")
+                            print(f"Cloud file path: {cloud_file_path}")
+                            main_shasum_file = open(cloud_file_path, "r").read()
+                            main_shasum_map = map_shasum(main_shasum_file)
+                            # print(f"Main SHA sums: {main_shasum_map}")
+                            # print(f"Extracted SHA sums: {shasum_map}")
+                            assert shasum_map == main_shasum_map, "SHA sums do not match with the cloud server"
+    
+                    except Exception as e:
+                        # print(f"Error unzipping content: {e}")
+&gt;                       pytest.fail(f"Error while processing the zip file: {e}")
+E                       Failed: Error while processing the zip file: SHA sums do not match with the cloud server
+
+utils\utility_functions.py:123: Failed</failure></testcase><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncnsefeed api-syncnsefeed-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.151" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncxmldata api-syncxmldata-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="1.041" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncresourcedata api-syncresourcedata-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.147" /><testcase classname="testSuite.test_inhouse_api.TestInhouseAPIs" name="test_inhouse_api[tes the syncmvecontent api-syncmvecontent-ZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKbGVIQWlPakUzTkRJNE5qQTRNREFzSW1wMGFTSTZJbk53TVRkNU9XcG5PVGcyWjJONGR5SXNJbWx6Y3lJNklqazRPVEE0T1ROaExXUTNabVF0TkdKbU5TMDVaVEV3TFRReU9HWmhZbVZoTmpNMFlTSXNJbWxoZENJNk1UYzBNVGcxTmpFNE4zMC5McDlaMXV5STZyN1VfYUtRUzQwUUtqdy1ZNEdoYVBiRDNwM2x2SllJZDBWMGFnekxZaTA1eldZQ3hYZE1aRlJYczV1RWY2MVhPQ3YzNnc3aDRzSHZ0Zw==-200-zipfile-text]" time="0.122" /></testsuite></testsuites>
