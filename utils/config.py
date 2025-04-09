@@ -8,9 +8,7 @@ class Config:
             self.config = json.load(config_file)
 
             self.get_cloud_webservice_url = self.config["cloud_webservice_api_url"]
-            self.get_inhouse_ip = self.config["inhouse_ip"]
             self.get_cloud_ip = self.config["cloud_ip"]
-            self.get_inhouse_ancor_saml = self.config["inhouse_ancor_saml"]
             self.get_could_content_files_path = self.config["cloud_content_files_path"]
             self.get_sync_folder_maps = self.config["sync_folder_map"]
             self.get_download_directory_path = self.config["download_directory_path"]

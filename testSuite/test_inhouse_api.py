@@ -7,8 +7,11 @@ config = config.Config()
 
 
 class TestInhouseAPIs:
-    test_data = utility_functions.load_test_data(excel_path="resources/InhouseTestCases.xlsx",
+    test_data_1 = utility_functions.load_test_data(excel_path="resources/InhouseTestCases.xlsx",
                                                  sheet_name="InhouseAPIs")
+    test_data_2 = utility_functions.load_test_data(excel_path="resources/InhouseTestCases.xlsx",
+                                                   sheet_name="6.3-Inhouse")
+    test_data = test_data_1 + test_data_2
     print(test_data)
 
     @pytest.mark.parametrize("test_description, api_endpoint, ancor_saml, expected_api_response_status, response_type,"
