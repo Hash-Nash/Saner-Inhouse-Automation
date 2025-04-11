@@ -1,9 +1,8 @@
 {
-  "inhouse_ip": "172.16.12.249",
-  "cloud_ip": "172.16.50.248",
+  "cloud_ip": "172.16.11.105",
   "cloud_ssh_user": "root",
   "cloud_ssh_password": "secpod",
-  "cloud_webservice_api_url": "https://172.16.50.248/AncorWebService/",
+  "cloud_webservice_api_url": "https://172.16.11.105/AncorWebService/",
   "download_directory_path": "downloads",
   "cloud_content_files_path": "/feed/home/",
   "sync_folder_map": {

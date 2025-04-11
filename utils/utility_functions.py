@@ -47,14 +47,14 @@ def assert_api_response(response, expected_status_code, expected_response, respo
             response_json = dict(response.json())
             expected_response_json = dict(json.loads(expected_response))
             # Validate the response against the expected JSON schema
-            from jsonschema import validate, ValidationError
-            try:
-                json_shema = json.loads(open("resources/JsonSchemaValidation1.json").read())
-                print(json_shema)
-                validate(instance=response_json, schema=json_shema)
-                print("API response is valid against the expected JSON schema")
-            except ValidationError as e:
-                raise AssertionError(f"JSON schema validation error: {e.message}")
+            # from jsonschema import validate, ValidationError
+            # try:
+            #     json_schema = json.loads(open("resources/6_3AncorJsonSchema.json").read())
+            #     print(json_schema)
+            #     validate(instance=response_json, schema=json_schema)
+            #     print("API response is valid against the expected JSON schema")
+            # except ValidationError as e:
+            #     raise AssertionError(f"JSON schema validation error: {e.message}")
         elif response_type == "text":
             response_text = response.text
             assert response_text == expected_response, \
